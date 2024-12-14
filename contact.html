@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WebSim</title>
+    <meta name="description" content="Get in touch with the WebSim team. We're here to help with your web simulation needs and answer any questions about our platform.">
+    <meta name="keywords" content="contact, support, websim, help, web simulation">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <a href="/generated-website-1734201813071/home.html" class="flex items-center">
+                        <span class="text-xl font-bold text-gray-900">WebSim</span>
+                    </a>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden sm:flex sm:space-x-8">
+                    <a href="/generated-website-1734201813071/explore.html" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-900">
+                        Explore
+                    </a>
+                    <a href="/generated-website-1734201813071/create.html" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-900">
+                        Create
+                    </a>
+                    <a href="/generated-website-1734201813071/about.html" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-900">
+                        About
+                    </a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <div class="flex items-center sm:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="sm:hidden">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="/generated-website-1734201813071/explore.html" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">Explore</a>
+                <a href="/generated-website-1734201813071/create.html" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">Create</a>
+                <a href="/generated-website-1734201813071/about.html" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50">About</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+            <div class="px-4 py-6 sm:px-0">
+                <div class="max-w-3xl mx-auto">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-8">Contact Us</h1>
+                    
+                    <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6">
+                        <form method="GET" action="/generated-website-1734201813071/contact/submit" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                                <input type="text" name="name" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required>
+                            </div>
+
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                                <input type="email" name="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required>
+                            </div>
+
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                                <select id="subject" name="subject" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="partnership">Partnership Opportunities</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                                <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="mt-8 border-t border-gray-200 pt-8">
+                            <h2 class="text-lg font-medium text-gray-900">Other Ways to Reach Us</h2>
+                            <div class="mt-4 space-y-4">
+                                <p class="text-sm text-gray-600">
+                                    <strong>Email:</strong> support@websim.example
+                                </p>
+                                <p class="text-sm text-gray-600">
+                                    <strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM EST
+                                </p>
+                                <p class="text-sm text-gray-600">
+                                    <strong>Response Time:</strong> Usually within 24 hours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="text-gray-500 text-sm">
+                    &copy; 2024 WebSim. All rights reserved.
+                </div>
+                <div class="space-x-4">
+                    <a href="/generated-website-1734201813071/terms.html" class="text-gray-500 hover:text-gray-900 text-sm">Terms</a>
+                    <a href="/generated-website-1734201813071/privacy.html" class="text-gray-500 hover:text-gray-900 text-sm">Privacy</a>
+                    <a href="/generated-website-1734201813071/contact.html" class="text-gray-500 hover:text-gray-900 text-sm">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
